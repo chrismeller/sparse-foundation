@@ -17,7 +17,7 @@
 	// if we are on a mobile device, hide the address bar
 	$(document).ready( function ( ) {
 
-		$(document).foundationTooltips( { targetClass: '[rel="tooltip"]' } );
+		$(document).foundationTooltips( { targetClass: '[data-rel="tooltip"]' } );
 
 		if ( window.Modernizr.touch ) {
 			$(window).load( function () {

@@ -41,11 +41,11 @@
 	?>
 
 		<div class="pagination row">
-			<div class="three columns">
+			<div class="five columns">
 				<?php echo $older_link; ?>
 			</div>
 			<div class="two columns"><p class="of"><?php echo $from_to; ?></p></div>
-			<div class="three columns pull-right">
+			<div class="five columns pull-right">
 				<?php echo $newer_link; ?>
 			</div>
 		</div>

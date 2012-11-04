@@ -5,7 +5,9 @@
 	?>
 
 		<div id="posts" itemprop="blogPosts">
-			foo
+			<?php
+				echo $theme->content( $posts );
+			?>
 		</div>
 
 	<?php
